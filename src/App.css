@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  transition: all linear 100ms;
+  text-align: center;
+  display: block;
+   padding: 40px;
+   background-color: #282c34;
+}
+
+html {
+  font-family: "Roboto", "Droid Sans", "Helvetica Neue", sans-serif !important;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  display: block;
+  padding-bottom: 30px;
+
+}
+
+.App-logo-box {
+  height: 125px;
+  border-radius: 50%;
+  width:  130px;
+  background-color: #2EB67D;
+  border: 1px solid #36C5F0;
+  margin-bottom: 15px;
+} 
+
+.App-logo {
+  height: 120px;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 125px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.links-section {
+  text-align:center; 
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 20px 25px;
+  width: 450px;
+   min-height:300px;
+   margin: 0 auto 35px;
+   max-width: 100%; 
+}
+
+.link {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  color: white;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: #36C5F0;
+}
+.link:hover {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all ease-in;
+}
+.subtext {
+  font-size: 10px;
+  color: #ddd;
+  text-align: left;
+  font-style: italic;
+}
+.red {
+  background-color: #E01E5A;
+}
+.green {
+  background-color: #2EB67D;
+}
+.yellow {
+  background-color: #ECB22E;
+}
+.purple {
+  background-color: #4A154B;
+}
