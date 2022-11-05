@@ -7,10 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   transition: all linear 100ms;
-  text-align: center;
   display: block;
-   padding: 40px;
-   background-color: #282c34;
+  padding: 40px;
+  background-color: #fff;
+  color: #101828;
 }
 
 html {
@@ -28,11 +28,11 @@ html {
 .App-logo-box {
   height: 125px;
   border-radius: 50%;
-  width:  130px;
+  width: 130px;
   background-color: #2EB67D;
   border: 1px solid #36C5F0;
   margin-bottom: 15px;
-} 
+}
 
 .App-logo {
   height: 120px;
@@ -54,15 +54,15 @@ html {
 }
 
 .links-section {
-  text-align:center; 
-  background-color:rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-top: 10px;
   padding: 20px 25px;
   width: 450px;
-   min-height:300px;
-   margin: 0 auto 35px;
-   max-width: 100%; 
+  min-height: 300px;
+  margin: 0 auto 35px;
+  max-width: 100%;
 }
 
 .link {
@@ -76,26 +76,85 @@ html {
   font-size: 16px;
   background-color: #36C5F0;
 }
+
 .link:hover {
   text-decoration: none;
   color: white;
   transition: 0.3s all ease-in;
 }
+
 .subtext {
   font-size: 10px;
   color: #ddd;
   text-align: left;
   font-style: italic;
 }
+
 .red {
   background-color: #E01E5A;
 }
+
 .green {
   background-color: #2EB67D;
 }
+
 .yellow {
   background-color: #ECB22E;
 }
+
 .purple {
   background-color: #4A154B;
+}
+
+.contact-page {
+  text-align: left;
+  width: 448px;
+  margin: 0 auto;
+  color: #101828;
+  background-color: #fff;
+}
+
+
+.contact-section {
+  margin-top: 10px;
+  min-height: 300px;
+  margin: 0 auto 35px;
+  max-width: 100%;
+  text-align: left;
+}
+
+label {
+  color: #101828;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.contact-section button {
+  background-color: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-page h2 {
+  text-align: left;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
+}
+
+.contact-page p {
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  margin-bottom: 30px;
 }
