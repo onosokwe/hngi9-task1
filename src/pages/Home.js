@@ -10,14 +10,15 @@ class Home extends Component {
 					<div className="App-logo-box">
 						<img src={passport} className="App-logo" alt="passport" id="profile__img" />
 					</div>
-					<p id="twitter">Twitter
-						@<a href="https://twitter.com/onosokwe"
+					<p id="twitter">
+						<span style={{ color: '#444' }}>Twitter @</span>
+						<a href="https://twitter.com/onosokwe"
 							style={{ color: '#00acee' }}
 							target="_blank"
 							rel="noreferrer">onosokwe</a>
 						<br />
-						Slack
-						@<a href="https://slack.com"
+						<span style={{ color: '#444' }}>Slack @</span>
+						<a href="https://slack.com/onosokwe"
 							style={{ color: '#E01E5A' }}
 							id="slack" target="_blank" rel="noreferrer">onosokwe </a></p>
 				</header>
@@ -52,8 +53,7 @@ class Home extends Component {
 					</div>
 
 					<div style={{ marginTop: 15 }}>
-						<Link to='/contact' className="link red" id="book__design">CONTACT</Link>
-						<span className="subtext">Download the free design book by Zuri. </span>
+						<Link to='/contact' className="link blue" id="contact__me">Contact Me</Link>
 					</div>
 
 				</section>

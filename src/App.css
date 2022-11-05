@@ -108,7 +108,7 @@ html {
 
 .contact-page {
   text-align: left;
-  width: 448px;
+
   margin: 0 auto;
   color: #101828;
   background-color: #fff;
@@ -119,6 +119,7 @@ html {
   margin-top: 10px;
   min-height: 300px;
   margin: 0 auto 35px;
+  width: 448px;
   max-width: 100%;
   text-align: left;
 }
