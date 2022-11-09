@@ -53,7 +53,7 @@ class Home extends Component {
 					</div>
 
 					<div style={{ marginTop: 15 }}>
-						<Link to='/contact' className="link blue" id="contact__me">Contact Me</Link>
+						<Link to='/contact' className="link blue" id="contact">Contact Me</Link>
 					</div>
 
 				</section>
